@@ -28,5 +28,7 @@
       "Reactor\\Cache\\Tests\\": "tests/"
     }
   },
-  "prefer-stable": true
+    "suggest": {
+        "laravel/framework": "This package requires Laravel 5.5"
+    }
 }
