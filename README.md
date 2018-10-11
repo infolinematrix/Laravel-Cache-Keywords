@@ -1,13 +1,6 @@
 # Laravel Cache Keywords
 
-[![Build Status](https://travis-ci.org/Propaganistas/Laravel-Cache-Keywords.svg?branch=master)](https://travis-ci.org/Propaganistas/Laravel-Cache-Keywords)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Propaganistas/Laravel-Cache-Keywords/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Propaganistas/Laravel-Cache-Keywords/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/Propaganistas/Laravel-Cache-Keywords/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/Propaganistas/Laravel-Cache-Keywords/?branch=master)
-[![Latest Stable Version](https://poser.pugx.org/propaganistas/laravel-cache-keywords/v/stable)](https://packagist.org/packages/propaganistas/laravel-cache-keywords)
-[![Total Downloads](https://poser.pugx.org/propaganistas/laravel-cache-keywords/downloads)](https://packagist.org/packages/propaganistas/laravel-cache-keywords)
-[![License](https://poser.pugx.org/propaganistas/laravel-cache-keywords/license)](https://packagist.org/packages/propaganistas/laravel-cache-keywords)
-
-Empowers Laravel's Cache with `keywords` behavior. Keywords differ from Laravel's built-in `tags` implementation in the following aspects:
+Laravel's Cache with `keywords` behavior. Keywords differ from Laravel's built-in `tags` implementation in the following aspects:
 
 * Cache records can be fetched *without* previously set keywords.
 
@@ -21,7 +14,7 @@ Empowers Laravel's Cache with `keywords` behavior. Keywords differ from Laravel'
 1. In the `require` key of `composer.json` file add the following
 
     ```json
-    "propaganistas/laravel-cache-keywords": "~1.0"
+    "reactor/laravel-cache-keywords": "~1.0"
     ```
 
 2. Run the Composer update command
@@ -38,7 +31,7 @@ Empowers Laravel's Cache with `keywords` behavior. Keywords differ from Laravel'
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         ...
-        Propaganistas\LaravelCacheKeywords\CacheKeywordsServiceProvider::class,
+        Reactor\LaravelCacheKeywords\CacheKeywordsServiceProvider::class,
     ],
     ```
 
