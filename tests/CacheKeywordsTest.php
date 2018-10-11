@@ -1,8 +1,8 @@
 <?php namespace Reactor\LaravelCacheKeywords\Tests;
 
 
-use Propaganistas\LaravelCacheKeywords\CacheKeywordsServiceProvider;
-use Propaganistas\LaravelCacheKeywords\Exceptions\ReservedCacheKeyPatternException;
+use Reactor\LaravelCacheKeywords\CacheKeywordsServiceProvider;
+use Reactor\LaravelCacheKeywords\Exceptions\ReservedCacheKeyPatternException;
 
 class CacheKeywordsTest extends TestCase
 {
